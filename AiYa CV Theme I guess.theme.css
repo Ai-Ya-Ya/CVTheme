@@ -1,0 +1,195 @@
+/**
+ * @name AiYa CV Theme I guess
+ * @author ClearVision Team
+ * @version 6
+ * @description Highly customizable theme for BetterDiscord
+ * @invite 2fKpjAR
+ * @source https://github.com/ClearVision/ClearVision-v6
+ * @website https://github.com/Ai-Ya-Ya/CVTheme
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@100;300;400;500;700&display=swap');
+@import url('https://clearvision.gitlab.io/v6/main.css');
+
+
+/* change main-color and contrast-color if needed */
+:root {
+  --main-color: #fff;
+  --hover-color: #6a6a6a;
+  --success-color: #43b581;
+  --danger-color: #982929;
+  --contrast-color: #000;
+  --url-color: var(--main-color);
+  --background-image: url('https://i.fiery.me/Cw7zC.jpg');
+  --background-shading: 100%;
+  --background-position: center;
+  --background-size: cover;
+  --background-repeat: no-repeat;
+  --background-attachment: fixed;
+  --background-brightness: 100%;
+  --background-contrast: 100%;
+  --background-saturation: 100%;
+  --background-grayscale: 0%;
+  --background-invert: 0%;
+  --background-blur: 0px;
+  --background-overlay: rgba(0,0,0,0.6);
+  --user-popout-image: var(--background-image);
+  --user-popout-position: center;
+  --user-popout-size: cover;
+  --user-popout-repeat: no-repeat;
+  --user-popout-attachment: fixed;
+  --user-popout-brightness: 100%;
+  --user-popout-contrast: 100%;
+  --user-popout-saturation: 100%;
+  --user-popout-grayscale: 0%;
+  --user-popout-invert: 0%;
+  --user-popout-blur: 3px;
+  --user-modal-image: var(--background-image);
+  --user-modal-position: center;
+  --user-modal-size: cover;
+  --user-modal-repeat: no-repeat;
+  --user-modal-attachment: fixed;
+  --user-modal-brightness: 100%;
+  --user-modal-contrast: 100%;
+  --user-modal-saturation: 100%;
+  --user-modal-grayscale: 0%;
+  --user-modal-invert: 0%;
+  --user-modal-blur: 3px;
+  --home-icon: url('https://clearvision.gitlab.io/icons/discord.svg');
+  --home-position: center;
+  --home-size: 40px;
+  --channel-unread: var(--main-color);
+  --channel-color: rgba(255,255,255,0.3);
+  --muted-color: rgba(255,255,255,0.1);
+  --online-color: #43b581;
+  --idle-color: #faa61a;
+  --dnd-color: #982929;
+  --streaming-color: #593695;
+  --offline-color: #808080;
+  --main-font: 'Whitney';
+  --code-font: 'Fira Code';
+  --backdrop-overlay: rgba(0,0,0,0.8);
+  --backdrop-image: var(--background-image);
+  --backdrop-position: var(--background-position);
+  --backdrop-size: var(--background-size);
+  --backdrop-repeat: var(--background-repeat);
+  --backdrop-attachment: var(--background-attachment);
+  --backdrop-brightness: var(--background-brightness);
+  --backdrop-contrast: var(--background-contrast);
+  --backdrop-saturation: var(--background-saturation);
+  --backdrop-invert: var(--background-invert);
+  --backdrop-grayscale: var(--background-grayscale);
+  --backdrop-sepia: var(--background-sepia);
+  --backdrop-blur: var(--background-blur);
+  --bd-blue: var(--main-color);
+  --bd-blue-hover: var(--hover-color);
+  --bd-blue-active: var(--hover-color);
+  --channels-width: 220px;
+  --members-width: 240px;
+
+  /* My extra edits go here */
+}
+
+/* My extra edits go here */
+/* Selected channel invert color, credit to @Nyx#9567 */
+.containerDefault--pIXnN .wrapper-2jXpOf.modeSelected-346R90 .content-1x5b-n .icon-1DeIlz, .containerDefault--pIXnN .wrapper-2jXpOf.modeSelected-346R90 .content-1x5b-n .name-23GUGE{
+  color: var(--contrast-color) !important;
+}
+
+/* Selected settings invert color, credit to @Nyx#9567 */
+.standardSidebarView-3F1I7i .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ.selected-3s45Ha,
+.standardSidebarView-3F1I7i .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ[style*="color: rgb(255, 255, 255)"], .standardSidebarView-3F1I7i .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ[style*="color: rgb(255, 255, 255)"]:hover{
+  color: var(--contrast-color) !important;
+}
+
+/* Settings icons invert color, credit to @Nyx#9567 */
+.standardSidebarView-3F1I7i .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ.selected-3s45Ha:before{
+  filter: brightness(0%);
+}
+
+/* Selected DM invert color */
+.da-selected .overflow-WK9Ogt, .da-selected .da-activityText {
+  color: var(--contrast-color) !important;
+}
+
+/* Selected friend/block buttons invert color */
+.action-26D6fg.da-action.button-38aScr.da-button.lookFilled-1Gx00P.colorBrand-3pXr91.sizeTiny-EgeIrh.grow-q77ONN.da-grow,
+.action-26D6fg.da-action.button-38aScr.da-button.lookFilled-1Gx00P.colorPrimary-3b3xI6.sizeTiny-EgeIrh.grow-q77ONN.da-grow {
+  color: var(--contrast-color) !important;
+}
+
+/* Ping icon invert color */
+.numberBadge-2s8kKX.base-PmTxvP.da-numberBadge.da-base {
+  color: var(--contrast-color) !important;
+}
+
+/* The following four button changes are just so text appears legibly */
+div.da-contentRegion button div.contents-18-Yxp.da-contents {
+  color: var(--contrast-color) !important;
+}
+
+div.da-contentRegion button.colorRed-1TFJan div.contents-18-Yxp.da-contents {
+  color: #f04747 !important;
+}
+
+div.da-contentRegion button.colorRed-1TFJan.da-disableButton div.contents-18-Yxp.da-contents {
+  color: var(--main-color) !important;
+}
+
+div.da-contentRegion button.lookOutlined-3sRXeN.colorBrand-3pXr91 div.contents-18-Yxp.da-contents {
+  color: #fff !important;
+}
+
+/* For multiple choice/radio button settings */
+div[aria-checked*=true] div.size16-1P40sf.title-3BE6m5.da-title, div[aria-selected*=true] div.roleInner-1C_Scc.da-roleInner {
+  color: var(--contrast-color) !important;
+}
+
+/* Apparently BD has its own set of ids and classes */
+button.bd-button, button.bd-pfbtn {
+  color: var(--contrast-color) !important;
+}
+
+div#bd-settings-sidebar div.ui-tab-bar-item.selected {
+  color: var(--contrast-color) !important;
+}
+
+div#bd-settings-sidebar div.ui-tab-bar-item.selected:before {
+  filter: brightness(0%);
+}
+
+/* Buttons and other small things */
+a.da-selected div.da-name {
+  color: var(--contrast-color) !important;
+}
+
+div.da-actionButtons div {
+  color: var(--contrast-color) !important;
+}
+
+button.da-followButton div {
+  color: var(--contrast-color) !important;
+}
+
+form button {
+  color: var(--contrast-color) !important;
+}
+
+/* Ping autocomplete */
+div.autocomplete-1vrmpx div {
+  color: var(--contrast-color) !important;
+}
+
+/* Search tag color inversion */
+div.search-2oPWTC span.searchFilter-2ESiM3 {
+  color: var(--contrast-color) !important;
+}
+
+div.ring-13rgEW {
+  color: var(--contrast-color) !important;
+}
+
+/* Upload button color inversion */
+button.button-38aScr.lookFilled-1Gx00P.colorBrand-3pXr91.sizeMedium-1AC_Sl.grow-q77ONN div {
+  color: var(--contrast-color) !important;
+}
