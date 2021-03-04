@@ -185,11 +185,57 @@ div.search-2oPWTC span.searchFilter-2ESiM3 {
   color: var(--contrast-color) !important;
 }
 
+div.search-2oPWTC span.searchAnswer-3Dz2-q * {
+  color: var(--contrast-color) !important;
+}
+
 div.ring-13rgEW {
   color: var(--contrast-color) !important;
 }
 
 /* Upload button color inversion */
 button.button-38aScr.lookFilled-1Gx00P.colorBrand-3pXr91.sizeMedium-1AC_Sl.grow-q77ONN div {
+  color: var(--contrast-color) !important;
+}
+
+/* New message bar color inversion */
+div#---new-messages-bar span.unreadPill-2HyYtt {
+  color: var(--contrast-color) !important;
+}
+
+/* Get Nitro button color inversion */
+div.contents-18-Yxp.premiumSubscribeButton-3TowJw span.buttonText-3LvUCc {
+  color: var(--contrast-color) !important;
+}
+
+div.contents-18-Yxp.premiumSubscribeButton-3TowJw svg.premiumIcon-YgHhed {
+  filter: brightness(0%) !important;
+}
+
+/* Selected channels create invite invert color */
+div#channels div.containerDefault--pIXnN.selected-3LIHYU svg {
+  filter: brightness(0%) !important;
+}
+
+/* Search bar color inversion (this took a LOT of guesswork) */
+div.layerContainer-yqaFcK div div div:not(.body-3iLsc4.thin-1ybCId.scrollerBase-289Jih.fade-2kXiP2) {
+  background-color: var(--contrast-color) !important;
+}
+
+div.tabBar-ZmDY9v.da-tabBar.topPill-30KHOu div.item-3HknzM.da-item.item-PXvHYJ.selected-3s45Ha.da-selected.themed-OHr7kt.da-themed {
+  color: var(--contrast-color) !important;
+}
+
+a.da-selected div div.avatar-3uk_u9 svg {
+  filter: brightness(0%) !important;
+}
+
+/* Server invite invert color */
+div.container-1ov-mD.da-container div div.content-2U5lSY.da-content button div.contents-18-Yxp.da-contents {
+  color: var(--contrast-color) !important;
+}
+
+/* Video time scoller invert color */
+div.bubble-3qRl2J {
   color: var(--contrast-color) !important;
 }
