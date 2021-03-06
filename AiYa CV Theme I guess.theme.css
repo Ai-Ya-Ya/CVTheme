@@ -217,8 +217,8 @@ div#channels div.containerDefault--pIXnN.selected-3LIHYU svg {
   filter: brightness(0%) !important;
 }
 
-/* Search bar color inversion (this took a LOT of guesswork) */
-div.layerContainer-yqaFcK div div div:not(.body-3iLsc4.thin-1ybCId.scrollerBase-289Jih.fade-2kXiP2) {
+/* Search bar color inversion (this was painful) */
+div.layerContainer-yqaFcK div div#search-results div#search-results--1 {
   background-color: var(--contrast-color) !important;
 }
 
@@ -238,4 +238,31 @@ div.container-1ov-mD.da-container div div.content-2U5lSY.da-content button div.c
 /* Video time scoller invert color */
 div.bubble-3qRl2J {
   color: var(--contrast-color) !important;
+}
+
+/* Extension-specific (message logger) invert color */
+svg.questionMark-3qBhGj.da-questionMark g {
+  fill: var(--contrast-color) !important;
+}
+
+/* inbox text and button invert color */
+div.tabBar-1kuXvJ.da-tabBar.topPill-30KHOu div[aria-selected*=true] {
+  color: var(--contrast-color) !important;
+}
+
+div.container-enaOkj.recentMentionsPopout-3rCiI6.da-container.da-recentMentionsPopout svg {
+  filter: brightness(0%) !important;
+}
+
+div.container-enaOkj.recentMentionsPopout-3rCiI6.da-container.da-recentMentionsPopout button {
+  color: var(--contrast-color) !important;
+}
+
+/* radio button and slider invert color */
+svg.slider-TkfMQL.da-slider rect {
+  fill: var(--contrast-color) !important;
+}
+
+circle.da-radioIconForeground {
+  fill: var(--contrast-color) !important;
 }
