@@ -176,7 +176,7 @@ form button {
 }
 
 /* Ping autocomplete */
-div.autocomplete-1vrmpx div {
+div.autocomplete-1vrmpx div.da-selected div {
   color: var(--contrast-color) !important;
 }
 
@@ -226,7 +226,12 @@ div.tabBar-ZmDY9v.da-tabBar.topPill-30KHOu div.item-3HknzM.da-item.item-PXvHYJ.s
   color: var(--contrast-color) !important;
 }
 
-a.da-selected div div.avatar-3uk_u9 svg {
+/* DM avatar color inversion */
+a#private-channels-0.da-selected div div.avatar-3uk_u9 svg {
+  filter: brightness(0%) !important;
+}
+
+a#private-channels-1.da-selected div div.avatar-3uk_u9 svg {
   filter: brightness(0%) !important;
 }
 
@@ -265,4 +270,13 @@ svg.slider-TkfMQL.da-slider rect {
 
 circle.da-radioIconForeground {
   fill: var(--contrast-color) !important;
+}
+
+/* BD's own setting IDs are getting pretty annoying */
+div.bd-switch::after {
+  background-color: var(--contrast-color) !important;
+}
+
+div.tab-2j5AEF.da-tab.da-selected[aria-selected*=true] {
+  color: var(--contrast-color) !important;
 }
