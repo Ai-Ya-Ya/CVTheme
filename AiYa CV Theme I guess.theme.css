@@ -1,8 +1,8 @@
 /**
  * @name AiYa CV Theme I guess
- * @author ClearVision Team
- * @version 6
- * @description Highly customizable theme for BetterDiscord
+ * @author AiYa
+ * @version 6.0.3
+ * @description A cyberpunk-ish dark preset for CV
  * @invite 2fKpjAR
  * @source https://github.com/ClearVision/ClearVision-v6
  * @website https://github.com/Ai-Ya-Ya/CVTheme
@@ -279,4 +279,9 @@ div.bd-switch::after {
 
 div.tab-2j5AEF.da-tab.da-selected[aria-selected*=true] {
   color: var(--contrast-color) !important;
+}
+
+/* Reroll on 25/3/2021 changes */
+div.scroller-1Bvpku.da-scroller.none-2Eo-qx.scrollerBase-289Jih {
+  background: transparent !important;
 }
