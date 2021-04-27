@@ -150,14 +150,6 @@ button.bd-button, button.bd-pfbtn {
   color: var(--contrast-color) !important;
 }
 
-div#bd-settings-sidebar div.ui-tab-bar-item.selected {
-  color: var(--contrast-color) !important;
-}
-
-div#bd-settings-sidebar div.ui-tab-bar-item.selected:before {
-  filter: brightness(0%);
-}
-
 /* Buttons and other small things */
 a.da-selected div.da-name {
   color: var(--contrast-color) !important;
@@ -282,6 +274,104 @@ div.tab-2j5AEF.da-tab.da-selected[aria-selected*=true] {
 }
 
 /* Reroll on 25/3/2021 changes */
+
+/* i actually forgot what this was for, sorry */
 div.scroller-1Bvpku.da-scroller.none-2Eo-qx.scrollerBase-289Jih {
   background: transparent !important;
+}
+
+/* settings button color invert */
+main.contentColumn-2hrIYH.contentColumnDefault-1VQkGM button div.contents-18-Yxp {
+  color: var(--contrast-color) !important;
+}
+
+main.contentColumn-2hrIYH.contentColumnDefault-1VQkGM button.colorRed-1TFJan div.contents-18-Yxp {
+  color: var(--main-color) !important;
+}
+
+main.contentColumn-2hrIYH.contentColumnDefault-1VQkGM button.lookOutlined-3sRXeN div.contents-18-Yxp {
+  color: var(--main-color) !important;
+}
+
+/* slider visual improvement */
+svg.slider-TkfMQL rect {
+  fill: var(--contrast-color) !important;
+}
+
+/* random settings weren't color inverting */
+div[aria-controls*="Discord Nitro-tab"][aria-selected*=true]:before {
+  filter: brightness(0%) !important;
+}
+
+/* radio button bar invert */ 
+div.item-26Dhrx.marginBottom8-AtZOdT.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG[aria-checked*=true] div.radioBar-bMNUI- div.info-3LOr12 div {
+  color: var(--contrast-color) !important;
+}
+
+div.item-26Dhrx.marginBottom8-AtZOdT.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG[aria-checked*=true] path {
+  fill: var(--contrast-color) !important;
+}
+
+div.item-26Dhrx.marginBottom8-AtZOdT.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG[aria-checked*=true] circle {
+  fill: var(--contrast-color) !important;
+}
+
+/* BD settings have their own classes and stuff and it's a pain in the ass */
+div.bd-switch-checked {
+  background-color: var(--main-color) !important;
+}
+
+button.bd-button.bd-button-title {
+  background-color: var(--main-color) !important;
+}
+
+div.bd-addon-card {
+  background: transparent !important;
+}
+
+div.bd-addon-card div.bd-addon-header {
+  background: transparent !important;
+}
+
+button.bd-button.bd-view-button.selected {
+  background-color: transparent !important;
+}
+
+button.bd-button.bd-view-button.selected svg {
+  fill: var(--main-color) !important;
+}
+
+div.bd-controls button {
+  background-color: var(--main-color) !important;
+}
+
+div.bd-controls button svg {
+  fill: var(--contrast-color) !important;
+}
+
+div.bd-controls button.bd-button-danger {
+  background-color: var(--contrast-color) !important;
+}
+
+div.bd-controls button.bd-button-danger svg {
+  fill: var(--main-color) !important;
+}
+
+/* discord DM menu text invert */ 
+a.channel-2QD9_O.selected-aXhQR6 div.nameAndDecorators-5FJ2dg div {
+  color: var(--contrast-color) !important;
+}
+
+a.channel-2QD9_O.selected-aXhQR6 svg {
+  filter: brightness(0%) !important;
+}
+
+/* discord DM menu top bar button invert */ 
+div.item-3HknzM.selected-3s45Ha[aria-selected*=true] {
+  color: var(--contrast-color) !important;
+}
+
+/* ping indicator invert */ 
+div.lowerBadge-29hYVK div {
+  color: var(--contrast-color) !important;
 }
