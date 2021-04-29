@@ -379,3 +379,31 @@ div.lowerBadge-29hYVK div {
 div.container-1fnzfI button div.contents-18-Yxp {
   color: var(--contrast-color) !important;
 }
+
+/* @ menu ping autocomplete invert */ 
+div.autocomplete-1vrmpx.autocomplete-3l_oCd div.base-1pYU8j.selectable-3dP3y-.selected-1Tbx07 div {
+  color: var(--contrast-color) !important;
+}
+
+/* vc menu buttons invert */
+button div.contents-18-Yxp div {
+  color: var(--contrast-color) !important;
+}
+
+/* DM close DM cross invert */ 
+svg.closeIcon-rycxaQ path {
+  fill: var(--contrast-color) !important;
+}
+
+/* friend request counter invert */
+div.numberBadge-2s8kKX.base-PmTxvP.baseShapeRound-1Mm1YW {
+  color: var(--contrast-color) !important;
+}
+
+div.badge-1Skb69.numberBadge-2s8kKX.base-PmTxvP.baseShapeRound-1Mm1YW {
+  color: var(--contrast-color) !important;
+}
+
+div.numberBadge-2s8kKX.base-PmTxvP.baseShapeRound-1Mm1YW:after {
+  color: var(--contrast-color) !important;
+}
