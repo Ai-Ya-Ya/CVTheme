@@ -357,20 +357,6 @@ div.bd-controls button.bd-button-danger svg {
   fill: var(--main-color) !important;
 }
 
-/* discord DM menu text invert */ 
-a.channel-2QD9_O.selected-aXhQR6 div.nameAndDecorators-5FJ2dg div {
-  color: var(--contrast-color) !important;
-}
-
-a.channel-2QD9_O.selected-aXhQR6 svg {
-  filter: brightness(0%) !important;
-}
-
-/* discord DM menu top bar button invert */ 
-div.item-3HknzM.selected-3s45Ha[aria-selected*=true] {
-  color: var(--contrast-color) !important;
-}
-
 /* ping indicator invert */ 
 div.lowerBadge-29hYVK div {
   color: var(--contrast-color) !important;
@@ -396,14 +382,56 @@ svg.closeIcon-rycxaQ path {
 }
 
 /* friend request counter invert */
-div.numberBadge-2s8kKX.base-PmTxvP.baseShapeRound-1Mm1YW {
+div.numberBadge-2s8kKX.base-PmTxvP.baseShapeRound-1Mm1YW:before {
+  background-color: var(--contrast-color) !important;
+}
+
+a.channel-2QD9_O.container-2Pjhx-.selected-aXhQR6 div.numberBadge-2s8kKX.base-PmTxvP.baseShapeRound-1Mm1YW:before {
+  color: #fff !important;
+  background-color: rgba(0, 0, 0, 1.0) !important;
+}
+
+a.channel-2QD9_O.container-2Pjhx-.selected-aXhQR6 .layout-2DM8Md:after {
+  background: transparent !important;
+}
+
+/* DM menu top bar selected counter invert */
+div.item-3HknzM.item-PXvHYJ.selected-3s45Ha.themed-OHr7kt {
+  background: transparent !important;
+}
+
+div.numberBadge-2s8kKX.baseShapeRound-1Mm1YW {
   color: var(--contrast-color) !important;
 }
 
-div.badge-1Skb69.numberBadge-2s8kKX.base-PmTxvP.baseShapeRound-1Mm1YW {
+/* search menu color invert */
+div.searchHeader-2XoQg7 div.tab-2j5AEF.selected-2LAck8 {
   color: var(--contrast-color) !important;
 }
 
-div.numberBadge-2s8kKX.base-PmTxvP.baseShapeRound-1Mm1YW:after {
+/* AKA badge color invert */
+div.akaBadge-1M-1Gw {
+  color: var(--contrast-color) !important;
+}
+
+/* friend request buttons color invert */
+div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6 button.actionButton-3W1xZa {
+  color: var(--contrast-color) !important;
+}
+
+/* add friend button color change */
+div.item-3HknzM.item-PXvHYJ.themed-OHr7kt[aria-controls*="ADD_FRIEND-tab"] {
+  background: transparent !important;
+}
+
+div.item-3HknzM.item-PXvHYJ.themed-OHr7kt[aria-controls*="ADD_FRIEND-tab"][aria-selected*="true"] {
+  background: transparent !important;
+  background-color: rgba(0, 0, 0, 1.0) !important;
+  color: var(--main-color) !important;
+  box-shadow: 0 0 0 1px var(--main-color) inset !important;
+}
+
+/* user profile button color invert */
+div.topSectionNormal-2-vo2m button.actionButton-3W1xZa {
   color: var(--contrast-color) !important;
 }
