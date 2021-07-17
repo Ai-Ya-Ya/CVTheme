@@ -1,7 +1,7 @@
 /**
  * @name AiYa CV Theme I guess
  * @author AiYa
- * @version 6.0.3
+ * @version 6.1.1
  * @description A cyberpunk-ish dark preset for CV
  * @invite 2fKpjAR
  * @source https://github.com/ClearVision/ClearVision-v6
@@ -13,6 +13,7 @@
 
 
 /* change main-color and contrast-color if needed */
+
 :root {
   --main-color: #fff;
   --hover-color: #6a6a6a;
@@ -86,14 +87,14 @@
   --bd-blue-active: var(--hover-color);
   --channels-width: 220px;
   --members-width: 240px;
-
+  
   /* My extra edits go here */
 }
 
 /* My extra edits go here */
 /* Selected channel invert color, credit to @Nyx#9567 */
 .containerDefault--pIXnN .wrapper-2jXpOf.modeSelected-346R90 .content-1x5b-n .icon-1DeIlz, .containerDefault--pIXnN .wrapper-2jXpOf.modeSelected-346R90 .content-1x5b-n .name-23GUGE{
-  color: var(--contrast-color) !important;
+  color: var(--contrast-color);
 }
 
 /* Selected settings invert color, credit to @Nyx#9567 */
@@ -109,299 +110,298 @@
 
 /* Selected DM invert color */
 .da-selected .overflow-WK9Ogt, .da-selected .da-activityText {
-  color: var(--contrast-color) !important;
+  color: var(--contrast-color);
 }
 
 /* Selected friend/block buttons invert color */
 .action-26D6fg.da-action.button-38aScr.da-button.lookFilled-1Gx00P.colorBrand-3pXr91.sizeTiny-EgeIrh.grow-q77ONN.da-grow,
 .action-26D6fg.da-action.button-38aScr.da-button.lookFilled-1Gx00P.colorPrimary-3b3xI6.sizeTiny-EgeIrh.grow-q77ONN.da-grow {
-  color: var(--contrast-color) !important;
+  color: var(--contrast-color);
 }
 
 /* Ping icon invert color */
 .numberBadge-2s8kKX.base-PmTxvP.da-numberBadge.da-base {
-  color: var(--contrast-color) !important;
+  color: var(--contrast-color);
 }
 
 /* The following four button changes are just so text appears legibly */
 div.da-contentRegion button div.contents-18-Yxp.da-contents {
-  color: var(--contrast-color) !important;
+  color: var(--contrast-color);
 }
 
 div.da-contentRegion button.colorRed-1TFJan div.contents-18-Yxp.da-contents {
-  color: #f04747 !important;
+  color: #f04747;
 }
 
 div.da-contentRegion button.colorRed-1TFJan.da-disableButton div.contents-18-Yxp.da-contents {
-  color: var(--main-color) !important;
+  color: var(--main-color);
 }
 
 div.da-contentRegion button.lookOutlined-3sRXeN.colorBrand-3pXr91 div.contents-18-Yxp.da-contents {
-  color: #fff !important;
+  color: #fff;
 }
 
 /* For multiple choice/radio button settings */
 div[aria-checked*=true] div.size16-1P40sf.title-3BE6m5.da-title, div[aria-selected*=true] div.roleInner-1C_Scc.da-roleInner {
-  color: var(--contrast-color) !important;
+  color: var(--contrast-color);
 }
 
 /* Apparently BD has its own set of ids and classes */
 button.bd-button, button.bd-pfbtn {
-  color: var(--contrast-color) !important;
+  color: var(--contrast-color);
 }
 
 /* Buttons and other small things */
 a.da-selected div.da-name {
-  color: var(--contrast-color) !important;
+  color: var(--contrast-color);
 }
 
 div.da-actionButtons div {
-  color: var(--contrast-color) !important;
+  color: var(--contrast-color);
 }
 
 button.da-followButton div {
-  color: var(--contrast-color) !important;
+  color: var(--contrast-color);
 }
 
 form button {
-  color: var(--contrast-color) !important;
+  color: var(--contrast-color);
 }
 
 /* Ping autocomplete */
-div.autocomplete-1vrmpx div.da-selected div {
-  color: var(--contrast-color) !important;
+div.base-1pYU8j.selectable-3dP3y-.selected-1Tbx07 div.autocompleteRowContent-1AMstF div, div.base-1pYU8j.selectable-3dP3y-.selected-1Tbx07 div.autocompleteRowContent-1AMstF span.descriptionDiscriminator-3vUOCc {
+  color: var(--contrast-color);
+}
+
+div.autocompleteRowVertical-q1K4ky.autocompleteRow-2OthDa span.descriptionDiscriminator-3vUOCc {
+  color: var(--main-color);
 }
 
 /* Search tag color inversion */
 div.search-2oPWTC span.searchFilter-2ESiM3 {
-  color: var(--contrast-color) !important;
+  color: var(--contrast-color);
 }
 
 div.search-2oPWTC span.searchAnswer-3Dz2-q * {
-  color: var(--contrast-color) !important;
+  color: var(--contrast-color);
 }
 
 div.ring-13rgEW {
-  color: var(--contrast-color) !important;
+  color: var(--contrast-color);
 }
 
 /* Upload button color inversion */
 button.button-38aScr.lookFilled-1Gx00P.colorBrand-3pXr91.sizeMedium-1AC_Sl.grow-q77ONN div {
-  color: var(--contrast-color) !important;
+  color: var(--contrast-color);
 }
 
 /* New message bar color inversion */
 div#---new-messages-bar span.unreadPill-2HyYtt {
-  color: var(--contrast-color) !important;
+  color: var(--contrast-color);
 }
 
 /* Get Nitro button color inversion */
 div.contents-18-Yxp.premiumSubscribeButton-3TowJw span.buttonText-3LvUCc {
-  color: var(--contrast-color) !important;
+  color: var(--contrast-color);
 }
 
 div.contents-18-Yxp.premiumSubscribeButton-3TowJw svg.premiumIcon-YgHhed {
-  filter: brightness(0%) !important;
+  filter: brightness(0%);
 }
 
 /* Selected channels create invite invert color */
 div#channels div.containerDefault--pIXnN.selected-3LIHYU svg {
-  filter: brightness(0%) !important;
+  filter: brightness(0%);
 }
 
 /* Search bar color inversion (this was painful) */
 div.layerContainer-yqaFcK div div#search-results div#search-results--1 {
-  background-color: var(--contrast-color) !important;
+  background-color: var(--contrast-color);
 }
 
 div.tabBar-ZmDY9v.da-tabBar.topPill-30KHOu div.item-3HknzM.da-item.item-PXvHYJ.selected-3s45Ha.da-selected.themed-OHr7kt.da-themed {
-  color: var(--contrast-color) !important;
+  color: var(--contrast-color);
 }
 
 /* DM avatar color inversion */
 a#private-channels-0.da-selected div div.avatar-3uk_u9 svg {
-  filter: brightness(0%) !important;
+  filter: brightness(0%);
 }
 
 a#private-channels-1.da-selected div div.avatar-3uk_u9 svg {
-  filter: brightness(0%) !important;
+  filter: brightness(0%);
 }
 
 /* Server invite invert color */
 div.container-1ov-mD.da-container div div.content-2U5lSY.da-content button div.contents-18-Yxp.da-contents {
-  color: var(--contrast-color) !important;
+  color: var(--contrast-color);
 }
 
 /* Video time scoller invert color */
 div.bubble-3qRl2J {
-  color: var(--contrast-color) !important;
+  color: var(--contrast-color);
 }
 
 /* Extension-specific (message logger) invert color */
 svg.questionMark-3qBhGj.da-questionMark g {
-  fill: var(--contrast-color) !important;
+  fill: var(--contrast-color);
 }
 
 /* inbox text and button invert color */
 div.tabBar-1kuXvJ.da-tabBar.topPill-30KHOu div[aria-selected*=true] {
-  color: var(--contrast-color) !important;
+  color: var(--contrast-color);
 }
 
 div.container-enaOkj.recentMentionsPopout-3rCiI6.da-container.da-recentMentionsPopout svg {
-  filter: brightness(0%) !important;
+  filter: brightness(0%);
 }
 
 div.container-enaOkj.recentMentionsPopout-3rCiI6.da-container.da-recentMentionsPopout button {
-  color: var(--contrast-color) !important;
+  color: var(--contrast-color);
 }
 
 /* radio button and slider invert color */
 svg.slider-TkfMQL.da-slider rect {
-  fill: var(--contrast-color) !important;
+  fill: var(--contrast-color);
 }
 
 circle.da-radioIconForeground {
-  fill: var(--contrast-color) !important;
+  fill: var(--contrast-color);
 }
 
 /* BD's own setting IDs are getting pretty annoying */
 div.bd-switch::after {
-  background-color: var(--contrast-color) !important;
+  background-color: var(--contrast-color);
 }
 
 div.tab-2j5AEF.da-tab.da-selected[aria-selected*=true] {
-  color: var(--contrast-color) !important;
+  color: var(--contrast-color);
 }
 
 /* Reroll on 25/3/2021 changes */
 
 /* i actually forgot what this was for, sorry */
 div.scroller-1Bvpku.da-scroller.none-2Eo-qx.scrollerBase-289Jih {
-  background: transparent !important;
+  background: transparent;
 }
 
 /* settings button color invert */
 main.contentColumn-2hrIYH.contentColumnDefault-1VQkGM button div.contents-18-Yxp {
-  color: var(--contrast-color) !important;
+  color: var(--contrast-color);
 }
 
 main.contentColumn-2hrIYH.contentColumnDefault-1VQkGM button.colorRed-1TFJan div.contents-18-Yxp {
-  color: var(--main-color) !important;
+  color: var(--main-color);
 }
 
 main.contentColumn-2hrIYH.contentColumnDefault-1VQkGM button.lookOutlined-3sRXeN div.contents-18-Yxp {
-  color: var(--main-color) !important;
+  color: var(--main-color);
 }
 
 /* slider visual improvement */
 svg.slider-TkfMQL rect {
-  fill: var(--contrast-color) !important;
+  fill: var(--contrast-color);
 }
 
 /* random settings weren't color inverting */
 div[aria-controls*="Discord Nitro-tab"][aria-selected*=true]:before {
-  filter: brightness(0%) !important;
+  filter: brightness(0%);
 }
 
 /* radio button bar invert */ 
 div.item-26Dhrx.marginBottom8-AtZOdT.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG[aria-checked*=true] div.radioBar-bMNUI- div.info-3LOr12 div {
-  color: var(--contrast-color) !important;
+  color: var(--contrast-color);
 }
 
 div.item-26Dhrx.marginBottom8-AtZOdT.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG[aria-checked*=true] path {
-  fill: var(--contrast-color) !important;
+  fill: var(--contrast-color);
 }
 
 div.item-26Dhrx.marginBottom8-AtZOdT.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG[aria-checked*=true] circle {
-  fill: var(--contrast-color) !important;
-}
-
-/* BD settings have their own classes and stuff and it's a pain in the ass */
-div.bd-switch-checked {
-  background-color: var(--main-color) !important;
+  fill: var(--contrast-color);
 }
 
 button.bd-button.bd-button-title {
-  background-color: var(--main-color) !important;
+  background-color: var(--main-color);
 }
 
 div.bd-addon-card {
-  background: transparent !important;
+  background: transparent;
 }
 
 div.bd-addon-card div.bd-addon-header {
-  background: transparent !important;
+  background: transparent;
 }
 
 button.bd-button.bd-view-button.selected {
-  background-color: transparent !important;
+  background-color: transparent;
 }
 
 button.bd-button.bd-view-button.selected svg {
-  fill: var(--main-color) !important;
+  fill: var(--main-color);
 }
 
 div.bd-controls button {
-  background-color: var(--main-color) !important;
+  background-color: var(--main-color);
 }
 
 div.bd-controls button svg {
-  fill: var(--contrast-color) !important;
+  fill: var(--contrast-color);
 }
 
 div.bd-controls button.bd-button-danger {
-  background-color: var(--contrast-color) !important;
+  background-color: var(--contrast-color);
 }
 
 div.bd-controls button.bd-button-danger svg {
-  fill: var(--main-color) !important;
+  fill: var(--main-color);
 }
 
 /* ping indicator invert */ 
 div.lowerBadge-29hYVK div {
-  color: var(--contrast-color) !important;
+  color: var(--contrast-color);
 }
 
 div.container-1fnzfI button div.contents-18-Yxp {
-  color: var(--contrast-color) !important;
+  color: var(--contrast-color);
 }
 
 /* @ menu ping autocomplete invert */ 
 div.autocomplete-1vrmpx.autocomplete-3l_oCd div.base-1pYU8j.selectable-3dP3y-.selected-1Tbx07 div {
-  color: var(--contrast-color) !important;
+  color: var(--contrast-color);
 }
 
 /* vc menu buttons invert */
 button div.contents-18-Yxp div {
-  color: var(--contrast-color) !important;
+  color: var(--contrast-color);
 }
 
 /* DM close DM cross invert */ 
 svg.closeIcon-rycxaQ path {
-  fill: var(--contrast-color) !important;
+  fill: var(--contrast-color);
 }
 
 /* friend request counter invert */
 div.numberBadge-2s8kKX.base-PmTxvP.baseShapeRound-1Mm1YW:before {
-  background-color: var(--contrast-color) !important;
+  background-color: var(--contrast-color);
 }
 
 a.channel-2QD9_O.container-2Pjhx-.selected-aXhQR6 div.numberBadge-2s8kKX.base-PmTxvP.baseShapeRound-1Mm1YW:before {
-  color: #fff !important;
-  background-color: rgba(0, 0, 0, 1.0) !important;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 1.0);
 }
 
 a.channel-2QD9_O.container-2Pjhx-.selected-aXhQR6 .layout-2DM8Md:after {
-  background: transparent !important;
+  background: transparent;
 }
 
 /* DM menu top bar selected counter invert */
 div.item-3HknzM.item-PXvHYJ.selected-3s45Ha.themed-OHr7kt {
-  background: transparent !important;
+  background: transparent;
 }
 
 div.numberBadge-2s8kKX.baseShapeRound-1Mm1YW {
-  color: var(--contrast-color) !important;
+  color: var(--contrast-color);
 }
 
 /* search menu color invert */
@@ -411,27 +411,72 @@ div.searchHeader-2XoQg7 div.tab-2j5AEF.selected-2LAck8 {
 
 /* AKA badge color invert */
 div.akaBadge-1M-1Gw {
-  color: var(--contrast-color) !important;
+  color: var(--contrast-color);
 }
 
 /* friend request buttons color invert */
 div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6 button.actionButton-3W1xZa {
-  color: var(--contrast-color) !important;
+  color: var(--contrast-color);
 }
 
 /* add friend button color change */
 div.item-3HknzM.item-PXvHYJ.themed-OHr7kt[aria-controls*="ADD_FRIEND-tab"] {
-  background: transparent !important;
+  background: transparent;
 }
 
 div.item-3HknzM.item-PXvHYJ.themed-OHr7kt[aria-controls*="ADD_FRIEND-tab"][aria-selected*="true"] {
-  background: transparent !important;
-  background-color: rgba(0, 0, 0, 1.0) !important;
-  color: var(--main-color) !important;
-  box-shadow: 0 0 0 1px var(--main-color) inset !important;
+  background: transparent;
+  background-color: rgba(0, 0, 0, 1.0);
+  color: var(--main-color);
+  box-shadow: 0 0 0 1px var(--main-color) inset;
 }
 
 /* user profile button color invert */
 div.topSectionNormal-2-vo2m button.actionButton-3W1xZa {
-  color: var(--contrast-color) !important;
+  color: var(--contrast-color);
+}
+
+/* GIF and sticker buttons visible */
+button.button-38aScr.lookBlank-3eh9lL.colorBrand-3pXr91.grow-q77ONN div div svg {
+  color: var(--main-color);
+}
+
+/* jump to present bar color invert */
+div.jumpToPresentBar-G1R9s6.barBase-1c2Rfb:hover button {
+  color: var(--contrast-color);
+}
+
+/* plugin update bar color invert */
+div#pluginNotice {
+  background: var(--main-color);
+}
+
+div#pluginNotice span {
+  color: var(--contrast-color);
+}
+
+div#pluginNotice strong span {
+  color: var(--contrast-color);
+}
+
+div#pluginNoticeDismiss {
+  background: var(--contrast-color);
+}
+
+/* BD updated their switch settings again */
+div.bd-switch-body {
+  background-color: var(--main-color);
+}
+
+rect.bd-switch-handle {
+  fill: var(--contrast-color);
+}
+
+.bd-switch input:checked+.bd-switch-body {
+  --switch-color: var(--main-color);
+}
+
+/* search pagination color invert */
+div.roundButton-CEHyUp.pageButton-2ruNwd.activeButton-rvKcqq span {
+  color: var(--contrast-color);
 }
