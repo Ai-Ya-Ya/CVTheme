@@ -21,6 +21,7 @@
     --contrast-color: #000;
     --url-color: var(--main-color);
     --background-image: url('https://ai-ya-ya.github.io/CVTheme/Cool%20City%20Background.jpg');
+    /* --background-image: url('https://ai-ya-ya.github.io/CVTheme/idofront.png'); */
     --background-shading: 100%;
     --background-position: center;
     --background-size: cover;
