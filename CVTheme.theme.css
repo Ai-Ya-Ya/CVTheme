@@ -96,11 +96,11 @@
 
 /* Selected channel invert color */
 
-div.containerDefault-YUSmu3.selected-2TbFuo div.channelName-3KPsGw {
+li.containerDefault-YUSmu3.selected-2TbFuo div.channelName-3KPsGw {
     color: var(--contrast-color);
 }
 
-div.containerDefault-YUSmu3.selected-2TbFuo svg {
+li.containerDefault-YUSmu3.selected-2TbFuo svg {
     filter: brightness(0%);
 }
 
@@ -119,15 +119,15 @@ div.item-3XjbnG.selected-g-kMVV.themed-2-lozF:before {
 
 /* Selected DM invert color */
 
-a.channel-1Shao0.container-1oeRFJ.selected-1-Z6gm div.content-1U25dZ div {
+li.channel-1Shao0.container-32HW5s div.selected-3veCBZ div.content-66wMin div {
     color: var(--contrast-color);
 }
 
-a.channel-1Shao0.container-1oeRFJ.selected-1-Z6gm div.closeButton-mupH76 path {
+li.channel-1Shao0.container-32HW5s div.selected-3veCBZ div.closeButton-mupH76 path {
     fill: var(--contrast-color);
 }
 
-a.channel-1Shao0.container-1oeRFJ.selected-1-Z6gm svg.linkButtonIcon-7rsZcu {
+li.channel-1Shao0.container-32HW5s div.selected-3veCBZ svg.linkButtonIcon-7rsZcu {
     filter: brightness(0%);
 }
 
